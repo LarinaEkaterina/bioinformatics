@@ -1,2 +1,3 @@
-cat words | sort > res
-a
+cat words | sort > sorted_words
+wc -l -c -w sorted_words   # 104334 104334 985084 sorted_words 
+
