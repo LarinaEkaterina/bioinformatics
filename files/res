@@ -1,2 +1,8 @@
 cat words | sort > soted_words
-a
+wc -l -w -c words                                                         # 104334 104334 985084 words
+split -l 1000 words 
+ls | wc -l                                                                # 108 -3 = 105
+du -sh words                                                              # 964K    words                                    
+gzip words 
+du -sh words.gz                                                           # 260K    words.gz
+cat words | tr a-z A-Z
