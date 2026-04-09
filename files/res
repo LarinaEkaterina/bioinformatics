@@ -1,2 +1,2 @@
-cat words | sort > res
+cat words | sort > soted_words
 a
