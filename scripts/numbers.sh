@@ -4,9 +4,9 @@ echo "Введите число"
 
 read number
 
-if [[ $number -gt 5 ]] ; then
+if [[ $number -lt 5 ]] ; then
   echo "Число меньше пяти!"
-elif [[ $number -lt 3 ]] ; then
+elif [[ $number -gt 5 ]] ; then
   echo "Число больше пяти!"
 else
   echo "Число в интервале от 1 до 8"
